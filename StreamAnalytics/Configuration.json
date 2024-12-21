@@ -1,0 +1,37 @@
+{
+    "apiVersion": "2020-03-01",
+    "id": "/subscriptions/70d3ca1d-a411-4231-8ec2-eae8259a6010/resourceGroups/deploymentENV/providers/Microsoft.StreamAnalytics/streamingjobs/StreamAnalyticsJob",
+    "name": "StreamAnalyticsJob",
+    "type": "microsoft.streamanalytics/streamingjobs",
+    "location": "israelcentral",
+    "tags": {
+        "hidden-link:/Microsoft.StreamAnalytics/streamingjobs/settings": "{\"createdFrom\":\"Portal\"}"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "**",
+        "tenantId": "**"
+    },
+    "properties": {
+        "sku": {
+            "name": "StandardV2"
+        },
+        "jobId": "b25938cb-ff9a-4308-8fde-37a4e0629bf3",
+        "provisioningState": "Succeeded",
+        "jobState": "Stopped",
+        "outputStartMode": "JobStartTime",
+        "outputStartTime": "2024-12-21T18:28:27.543Z",
+        "lastOutputEventTime": "2024-12-21T18:32:53.955Z",
+        "eventsOutOfOrderPolicy": "Adjust",
+        "outputErrorPolicy": "Stop",
+        "eventsOutOfOrderMaxDelayInSeconds": 0,
+        "eventsLateArrivalMaxDelayInSeconds": 5,
+        "dataLocale": "en-US",
+        "createdDate": "2024-12-21T13:38:02.453Z",
+        "compatibilityLevel": "1.2",
+        "jobStorageAccount": null,
+        "contentStoragePolicy": "SystemAccount",
+        "jobType": "Cloud",
+        "cluster": null
+    }
+}
