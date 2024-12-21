@@ -1,0 +1,16 @@
+{
+    "id": "/subscriptions/70d3ca1d-a411-4231-8ec2-eae8259a6010/resourceGroups/deploymentENV/providers/Microsoft.EventHub/namespaces/trainingspace123/eventhubs/myfirsteventhub",
+    "name": "myfirsteventhub",
+    "type": "Microsoft.EventHub/namespaces/eventhubs",
+    "location": "israelcentral",
+    "properties": {
+        "messageRetentionInDays": 1,
+        "partitionCount": 1,
+        "status": "Active",
+        "createdAt": "2024-12-21T13:14:37.823",
+        "updatedAt": "2024-12-21T13:17:38.15",
+        "partitionIds": [
+            "0"
+        ]
+    }
+}
